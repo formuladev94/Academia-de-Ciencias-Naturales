@@ -27,3 +27,4 @@ proyecto de práctica de desarrollo Frontend utilizando únicamente HTML y CSS.<
 
 <h3>Autora:</h3>
 <p> Medina, Maria del Rosario</p>
+<p>Github: rosedkr94</p>
