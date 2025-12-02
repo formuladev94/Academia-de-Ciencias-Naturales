@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap);
+
+/* Estilos generales */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Imagen de fondo ocupando toda la pantalla */
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #f1f6f8;
+            background-image: url('archivo para sitio/evolucion.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        /* Encabezado principal */
+        .header-logo, header h3 {
+            font-weight: 700;
+            font-size: 3rem;
+            color: #36e069;
+        }
+        .header-sub-text, header h4 {
+            font-weight: 500;
+            font-size: 5rem;
+            color: #f7f7f7;
+        }
+
+        /* Menú de navegación */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(15, 3, 3, 0.8);
+            z-index: 1000;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #45d893;
+        }
+
+        /* Encabezado */
+        header {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .header-logo-text {
+            font-size: 5rem;
+            color: #36e069;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .header-sub-text {
+            font-size: 3rem;
+            color: #ffffff;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Sección Nosotros */
+        .about-section {
+            padding: 80px 20px;
+            text-align: center;
+            color: #f1f6f8;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .about-section h2 {
+            font-weight: 700;
+            font-size: 2.5rem;
+            color: #45d893;
+            margin-bottom: 40px;
+        }
+
+        .about-block {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(69, 216, 147, 0.2);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(173, 189, 181, 0.671);
+            color: #f1f6f8;
+        }
